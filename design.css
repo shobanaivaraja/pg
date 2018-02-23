@@ -1,0 +1,100 @@
+body{
+ margin: 0px;
+}
+#whole{
+ width:100%;
+ height:100%;
+}
+#nav1
+{
+ width:100%;
+ height:10%;
+ float:left;
+}
+#center1
+{
+width:100%;
+height:85%;
+float:left;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+#pic
+{
+ width:80%;
+ height:85%;
+ float:left;
+ position: fixed;
+  
+}
+#contact
+{
+width:80%;
+ height:100%;
+ float:left;
+ position: relative;
+ background-image:url('b21.jpg');
+ background-repeat:   no-repeat;
+     background-position: 50% 50%;
+	     background-size:     cover;
+
+}
+img.bg1 {
+  position: relative;
+    float: left;
+    width:  100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  
+}
+#signin
+{
+ width: 20%;
+ height:100%;
+ float:right;
+ position: relative;
+ background-image:url('b10.jpg');
+ background-repeat:   no-repeat;
+     background-position: 50% 50%;
+	     background-size:     cover;
+ }
+#footer
+{
+width:100%;
+height:5%;
+background-color:black;
+float:left;
+color:white;
+text-align:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	color: white
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 24px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
